@@ -1,0 +1,9 @@
+.iconos{
+  font-size: 25px;
+}
+.navbar-wrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+
+

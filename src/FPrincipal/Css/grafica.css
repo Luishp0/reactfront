@@ -1,0 +1,161 @@
+.box-peque {
+    position: absolute;
+    width: 10%;
+    height: 70%;
+    left: 83%;
+    border-radius: 20px;
+    top: 25%;
+    background: rgba(124, 133, 140, 0.08);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
+}
+
+.colonia-box {
+    background-color: #FFFFFF; /* Color de fondo blanco */
+    border-radius: 15px; /* Hace que la caja sea un poco redondeada en los bordes */
+    padding: 20px; /* Agrega un espacio interno alrededor de la caja */
+    text-align: center; /* Centra el contenido en el centro del contenedor */
+    margin-top: 30px; /* Ajusta el espacio entre la caja y la caja de datos anterior */
+  }
+  
+  .colonia-title {
+    font-size: 22px;
+    margin-top: -10px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Ajusta el espacio entre el título y el número */
+  }
+  
+  .colonia-number {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .total-box {
+    background-color: #FFFFFF; /* Color de fondo blanco */
+    border-radius: 15px; /* Hace que la caja sea un poco redondeada en los bordes */
+    padding: 20px; /* Agrega un espacio interno alrededor de la caja */
+    text-align: center; /* Centra el contenido en el centro del contenedor */
+    margin-top: 30px; /* Ajusta el espacio entre la caja y la caja de datos anterior */
+  }
+  
+  .total-title {
+    font-size: 22px;
+    margin-top: -10px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Ajusta el espacio entre el título y el número */
+  }
+  
+  .total-number {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+.box-blanca {
+    border-radius: 15px;
+    display: flex;
+    /* Permite que los elementos internos se muestren en una fila */
+    align-items: flex-start;
+    /* Alinea los elementos en la parte superior */
+    justify-content: space-between;
+    /* Distribuye los elementos internos con espacios entre ellos */
+    background-color: #FFFFFF;
+    /* Color de fondo blanco */
+    padding: 20px;
+    /* Agrega un espacio interno alrededor del box */
+}
+
+.data-box {
+    display: flex;
+    /* Muestra los elementos internos en una fila */
+    flex-direction: column;
+    /* Muestra los elementos en una columna */
+}
+
+.data-item {
+    display: flex;
+    /* Muestra los elementos internos en una fila */
+    align-items: center;
+    /* Centra verticalmente los elementos internos */
+    margin-bottom: 10px;
+    /* Ajusta el espacio entre los elementos */
+}
+
+.data-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+   
+}
+
+.data-red {
+    background-color: red;
+    
+}
+
+.data-yellow {
+    background-color: yellow;
+    
+}
+
+.data-green {
+    background-color: green;
+    
+}
+
+.nav-grafica {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow: 4px 7px 15px 0px rgba(0, 0, 0, 0.08), 5px -5px 12px 0px rgba(255, 255, 255, 0.05) inset, -5px 5px 112px 0px rgba(255, 255, 255, 0.05) inset, -1px 0px 2px 0px rgba(201, 201, 201, 0.10) inset;
+    backdrop-filter: blur(75px);
+}
+
+.grafica-titulo {
+    font-size: 40px;
+    margin-left: 35%;
+
+}
+
+.grafica-wrapper {
+    top: 50px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  left: 430px;
+  max-width: 400px;
+  padding: 1px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+}
+
+input[type="text3"] {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+.bar-red {
+  fill: red; /* Cambia esto por el color deseado */
+}
+
+.bar-orange {
+  fill: orange; /* Cambia esto por el color deseado */
+}
+
+.bar-green {
+  fill: green; /* Cambia esto por el color deseado */
+}
+
+
+
+
+
+

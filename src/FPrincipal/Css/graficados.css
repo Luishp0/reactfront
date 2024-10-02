@@ -1,0 +1,153 @@
+.box-peque2 {
+    position: absolute;
+    width: 200px;
+    height: 510px;
+    left: 1300px;
+    border-radius: 20px;
+    top: 21%;
+    background: rgba(124, 133, 140, 0.08);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
+}
+
+.colonia-box2 {
+    background-color: #FFFFFF; /* Color de fondo blanco */
+    border-radius: 15px; /* Hace que la caja sea un poco redondeada en los bordes */
+    padding: 20px; /* Agrega un espacio interno alrededor de la caja */
+    text-align: center; /* Centra el contenido en el centro del contenedor */
+    margin-top: 30px; /* Ajusta el espacio entre la caja y la caja de datos anterior */
+    
+  }
+  
+  .colonia-title2 {
+    font-size: 22px;
+    margin-top: -10px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Ajusta el espacio entre el título y el número */
+  }
+  
+  .colonia-number2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .total-box2 {
+    background-color: #FFFFFF; /* Color de fondo blanco */
+    border-radius: 15px; /* Hace que la caja sea un poco redondeada en los bordes */
+    padding: 20px; /* Agrega un espacio interno alrededor de la caja */
+    text-align: center; /* Centra el contenido en el centro del contenedor */
+    margin-top: 30px; /* Ajusta el espacio entre la caja y la caja de datos anterior */
+  }
+  
+  .total-title2 {
+    font-size: 22px;
+    margin-top: -10px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Ajusta el espacio entre el título y el número */
+  }
+  
+  .total-number2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+.box-blanca2 {
+    border-radius: 15px;
+    display: flex;
+    /* Permite que los elementos internos se muestren en una fila */
+    align-items: flex-start;
+    /* Alinea los elementos en la parte superior */
+    justify-content: space-between;
+    /* Distribuye los elementos internos con espacios entre ellos */
+    background-color: #FFFFFF;
+    /* Color de fondo blanco */
+    padding: 20px;
+    /* Agrega un espacio interno alrededor del box */
+}
+
+.data-box2 {
+    display: flex;
+    /* Muestra los elementos internos en una fila */
+    flex-direction: column;
+    /* Muestra los elementos en una columna */
+}
+
+.data-item2 {
+    display: flex;
+    /* Muestra los elementos internos en una fila */
+    align-items: left;
+    /* Centra verticalmente los elementos internos */
+    margin-bottom: 10px;
+    /* Ajusta el espacio entre los elementos */
+}
+
+.data-color2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    /* Hace que los cuadros sean un poco redondeados en los bordes */
+}
+
+.data-red2 {
+    background-color: rgba(77, 74, 224, 1);
+    /* Color rojo */
+}
+.data-red3 {
+    background-color: rgba(253, 73, 92, 1);
+    /* Color rojo */
+}
+
+.data-yellow2 {
+    background-color: rgba(255, 0, 230, 1);
+    /* Color amarillo */
+}
+
+
+.nav-grafica2 {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow: 4px 7px 15px 0px rgba(0, 0, 0, 0.08), 5px -5px 12px 0px rgba(255, 255, 255, 0.05) inset, -5px 5px 112px 0px rgba(255, 255, 255, 0.05) inset, -1px 0px 2px 0px rgba(201, 201, 201, 0.10) inset;
+    backdrop-filter: blur(75px);
+}
+
+.grafica-titulo2 {
+    font-size: 40px;
+    margin-left: 35%;
+    top: 110px;
+    position: fixed;
+
+}
+
+.grafica-wrapper2 {
+    position: relative;
+    /* Permite ajustar la posición de la gráfica */
+    top: 50px;
+    /* Ajusta la posición vertical */
+    left: -10px;
+    /* Ajusta la posición horizontal */
+}
+
+.search-bar3 {
+    position: relative;
+    display: flex;
+    top: -70px;
+    left: 1000px;
+    max-width: 250px;
+    padding: 1.5px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    }
+    
+    input[type="text2"] {
+      flex: 1;
+      padding: 5px;
+      border: none;
+      border-radius: 10px;
+    }
+
+   
+
+
+  
